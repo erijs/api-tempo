@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api tempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Previsão do tempo</h1>
+        <div class="container">
+            <form >
+                <label for="input_cidade"></label>
+                <input type="text" name="input_cidade"
+                 id="input_cidade" placeholder="Digite a cidade"
+                 onchange="mudando()"
+                 >
+            </form>
+        </div>
+        <h2 id="escolha">Aguardando...</h2>
+        <div id="resultado">
+            <h3 id="res_titulo"></h3>
+            <img src="" id="icone" alt="">
+            <p id="temperatura"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

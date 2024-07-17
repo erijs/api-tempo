@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    height: 100%;
+    margin: auto;
+    background: linear-gradient(to bottom, #117b9c 70%, #ffffff 100%);
+    align-items: center;
+    align-content: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+#input_cidade {
+    background-color: #000000;
+    color: turquoise;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to bottom, #117b9c 70%, #ffffff 100%);
+}
+
+#res_titulo {
+    margin: 10%, 10%;
+
+}
+
+#temperatura {
+    color: white;
+    font-size: 40pt;
+    margin-bottom: 20%;
+}
+
+#icone {
+    width: 40%;
+}
