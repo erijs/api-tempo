@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background-color: #000000;
@@ -7,12 +8,14 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    width: 80%; 
+    width: 100%;
     height: 100%;
+    padding-top: 10%;
     margin: auto;
+    padding-top: 10%;
     background: linear-gradient(to bottom, #117b9c 70%, #ffffff 100%);
     align-items: center;
-    align-content: center;
+    
     
 }
 
@@ -24,6 +27,7 @@ main {
 #input_cidade {
     background-color: #000000;
     color: turquoise;
+    margin: auto;
 }
 
 #resultado {
@@ -35,14 +39,14 @@ main {
 }
 
 #res_titulo {
-    margin: 10%, 10%;
+   color: #117b9c;
 
 }
 
 #temperatura {
     color: white;
     font-size: 40pt;
-    margin-bottom: 20%;
+    padding-bottom: 10%;
 }
 
 #icone {
