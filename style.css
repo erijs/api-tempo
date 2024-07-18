@@ -8,26 +8,41 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    padding-top: 10%;
+    width: 80%;
+    height: 80%;
     margin: auto;
+    margin-top: 5%;
+    text-align: center;
     padding-top: 10%;
     background: linear-gradient(to bottom, #117b9c 70%, #ffffff 100%);
     align-items: center;
+    align-content: center;
     
     
 }
 
 .container {
+    width: 70%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
+
+
 
 #input_cidade {
     background-color: #000000;
     color: turquoise;
+    width: 50%;
     margin: auto;
+;   margin-bottom: 10%;
+}
+
+#escolha {
+    color: white;
+    margin: auto; 
+
+    
 }
 
 #resultado {
@@ -35,11 +50,12 @@ main {
     flex-direction: column;
     align-items: center;
     color: white;
-    background: linear-gradient(to bottom, #117b9c 70%, #ffffff 100%);
+    background: linear-gradient(to bottom, #0b637e 70%, #ffffff 100%);
+
 }
 
 #res_titulo {
-   color: #117b9c;
+   color: #ffffff;
 
 }
 
